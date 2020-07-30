@@ -1,75 +1,67 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "#ImersãoReact",
+      "link": "https://www.youtube.com/watch?v=DQ3A2PTpDBU&list=PLWdQUyFdcgOKP6Ep5JLSk3_fAafESCIzc&index=1",
+      "cor": "#15d1ea",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Playlist de vídeos sobre a Imersão",
+        "url": "https://www.youtube.com/watch?v=DQ3A2PTpDBU&list=PLWdQUyFdcgOKP6Ep5JLSk3_fAafESCIzc&index=1"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "#ImersaoReact Aula 1 - React Components e AluraFlix",
+          "url": "https://www.youtube.com/watch?v=DQ3A2PTpDBU&feature=youtu.be"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "#ImersaoReact Aula 2 - Roteamento e State",
+          "url": "https://www.youtube.com/watch?v=B2GNlpRWhcw#action=share"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "#ImersaoReact Aula 3 - Formulários e Componentes",
+          "url": "https://www.youtube.com/watch?v=ybnbwXSUCrE&feature=youtu.be"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
-        },
-        {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
-        },
-        {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
-        },
-        {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
-        },
-        {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "#ImersaoReact Aula 4 - AJAX e mais",
+          "url": "https://www.youtube.com/watch?v=LCOnvYqWf5g&feature=youtu.be"
+        }
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Rest-API",
+      "cor": "green",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Playlist para criação de Rest API com NodeJs",
+        "url": "https://www.youtube.com/watch?v=d_vXgK4uZJM&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Passo 0 - Introdução (O que é uma REST API?)",
+          "url": "https://www.youtube.com/watch?v=d_vXgK4uZJM&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=1"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Passo 1 - Criando ambiente",
+          "url": "https://www.youtube.com/watch?v=hAAj27hgPFg&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=2"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Passo 2 - Criando rotas",
+          "url": "https://www.youtube.com/watch?v=TGbiY6015Wg&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=3"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Passo 3 - Melhorando o Projeto e Tratando Erros",
+          "url": "https://www.youtube.com/watch?v=1ww5okv2DE0&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=4"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Passo 4 - Definindo o Body e tratando CORS",
+          "url": "https://www.youtube.com/watch?v=VNkSH5ENSlQ&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=5"
+        },
+        {
+          "titulo": "Criando Container do Docker com MySQL (ou MariaDB)",
+          "url": "https://www.youtube.com/watch?v=qa7SWCozY_A&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=6"
+        },
+        {
+          "titulo": "Passo 5 - Criiando Banco de Dados (MySQL)",
+          "url": "https://www.youtube.com/watch?v=Ra-1ZB6vYlw&list=PLWgD0gfm500EMEDPyb3Orb28i7HK5_DkR&index=7"
         }
       ]
     },

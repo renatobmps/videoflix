@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -22,4 +22,11 @@ body {
 
 a {
   color: inherit;
+}
+
+#root{
+
+  height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
 }
