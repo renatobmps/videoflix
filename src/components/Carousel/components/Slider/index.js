@@ -3,7 +3,9 @@ import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
-const Container = styled.ul`
+const typeUl = { primary: Boolean };
+
+const Container = styled('ul', typeUl)`
   padding: 0;
   margin: 0;
   .slick-prev,
@@ -17,7 +19,7 @@ const Container = styled.ul`
     transform: initial;
     &:before {
       font-size: 30px;
-      color: yellow;
+      color: ${props => props.primary ? 'red' : 'yellow'}
     }
   }
   
@@ -41,21 +43,22 @@ export const SliderItem = styled.li`
 
 const Slider = ({ children }) => {
 
-  return (
-    <Container>
-      <SlickSlider {...{
-        dots: false,
-        infinite: true,
-        speed: 300,
-        centerMode: false,
-        variableWidth: true,
-        adaptiveHeight: true,
-      }}
-      >
-        {children}
-      </SlickSlider>
-    </Container>
-  )
+    return (
+        <Container primary={true}>
+            <SlickSlider {...{
+                dots: true,
+                infinite: true,
+                speed: 300,
+                centerMode: false,
+                variableWidth: true,
+                adaptiveHeight: true,
+            }}
+            onClick={() => console.log("ok")}
+            >
+                {children}
+            </SlickSlider>
+        </Container>
+    )
 };
 
 export default Slider;
