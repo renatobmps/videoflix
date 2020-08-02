@@ -34,7 +34,7 @@ function CadastroCategoria() {
   useEffect(() => {
     const URL = window.location.hostname.includes('localhost')
       ? 'http://localhost:8080/categorias'
-      : 'https://videoflix-renatobmpsilva.herokuapp.com/';
+      : 'https://videoflix-renatobmpsilva.herokuapp.com/categorias';
     fetch(URL)
       .then(async (res) => {
         const resposta = await res.json();
