@@ -43,21 +43,21 @@ export const SliderItem = styled.li`
 
 const Slider = ({ children, categoryColor }) => {
 
-    return (
-        <Container color={categoryColor}>
-            <SlickSlider {...{
-                dots: true,
-                infinite: true,
-                speed: 300,
-                centerMode: false,
-                variableWidth: true,
-                adaptiveHeight: true,
-            }}
-            >
-                {children}
-            </SlickSlider>
-        </Container>
-    )
+  return (
+    <Container color={categoryColor}>
+      <SlickSlider {...{
+        dots: true,
+        infinite: true,
+        speed: 300,
+        centerMode: false,
+        variableWidth: true,
+        adaptiveHeight: true,
+      }}
+      >
+        {children}
+      </SlickSlider>
+    </Container>
+  )
 };
 
 export default Slider;

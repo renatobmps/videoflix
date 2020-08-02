@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "#ImersãoReact",
+            "descricao": "Playlist de vídeos sobre a Imersão",
+            "cor": "#15d1ea"
+        },
+        {
+            "id": 2,
+            "nome": "Rest-API",
+            "descricao": "Playlist para criação de Rest API com NodeJs",
+            "cor": "green"
+        }
+    ]
+}
