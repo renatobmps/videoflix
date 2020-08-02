@@ -32,11 +32,13 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categorias'
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://videoflix-renatobmpsilva.herokuapp.com/';
     fetch(URL)
       .then(async (res) => {
         const resposta = await res.json();
-        setCategoria(resposta);
+        setCategoria([...resposta]);
       });
   }, []);
 
@@ -80,6 +82,11 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
       <ul>
         {categorias.map((categoria, index) => (
           <li key={index} style={{ backgroundColor: `${categoria.cor}` }}>
