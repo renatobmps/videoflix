@@ -19,7 +19,7 @@ const Container = styled('ul', typeUl)`
     transform: initial;
     &:before {
       font-size: 30px;
-      color: ${props => props.primary ? 'red' : 'yellow'}
+      color: ${props => props.color}
     }
   }
   
@@ -41,10 +41,10 @@ export const SliderItem = styled.li`
   }
 `;
 
-const Slider = ({ children }) => {
+const Slider = ({ children, categoryColor }) => {
 
     return (
-        <Container primary={true}>
+        <Container color={categoryColor}>
             <SlickSlider {...{
                 dots: true,
                 infinite: true,
@@ -53,7 +53,6 @@ const Slider = ({ children }) => {
                 variableWidth: true,
                 adaptiveHeight: true,
             }}
-            onClick={() => console.log("ok")}
             >
                 {children}
             </SlickSlider>
