@@ -87,21 +87,22 @@ function CadastroCategoria() {
           Loading...
         </div>
       )}
-      <ul>
+      <table>
         {categorias.map((categoria, index) => (
-          <li key={index} style={{ backgroundColor: `${categoria.cor}` }}>
-            <div key={`${categoria.nome}${index}`}>
+
+          <tr key={index} style={{ backgroundColor: `${categoria.cor}` }}>
+            <td key={`${categoria.nome}${index}`}>
               {categoria.nome}
-            </div>
-            <div key={`${categoria.descricao}${index}`}>
+            </td>
+            <td key={`${categoria.descricao}${index}`}>
               {categoria.descricao}
-            </div>
-            <div key={`${categoria.cor}${index}`}>
+            </td>
+            <td key={`${categoria.cor}${index}`}>
               {categoria.cor}
-            </div>
-          </li>
+            </td>
+          </tr>
         ))}
-      </ul>
+      </table>
       <Link to="/">
         Ir para a home
       </Link>
